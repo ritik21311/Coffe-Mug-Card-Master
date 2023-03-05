@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    background-color:antiquewhite; 
+    height: 100vh;
+    width: 100vw;
+    box-sizing: content-box;
+    position: relative;
+}
+
+ .card{
+    position: absolute;
+    height: 75%;
+    width: 55%;
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    top: 5rem;
+    left: 20rem;
+} 
+ .cardImg{
+    height: 100%;
+    width: 45%;
+}
+.mug_img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5% 0 0 5%;
+    object-fit:cover;
+    object-position: right;
+}
+ .cardDescp{
+    height: 100%;
+    width: 55%;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+ h3{
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: gray;
+}
+ h1{
+    font-family: 'Fraunces', serif;
+    margin: 1.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.mug-desc{
+    margin-bottom: 1.5rem;
+    color: grey;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.price{
+    display: inline;
+}
+#crnt_price{
+    color: goldenrod;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 1px;
+    margin-right: 0.7rem;
+}
+#pst_price{
+    color: rgb(223, 12, 12);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+button{
+    display: block;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(49, 88, 49);
+    color: white;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.icon{
+    margin-right: 1rem;
+} 
